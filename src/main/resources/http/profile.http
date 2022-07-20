@@ -1,0 +1,33 @@
+POST http://localhost:8080/api/v1/profile/create
+Content-Type: application/json
+
+{
+  "name": "IDK",
+  "surname": "IDK",
+  "middleName": "IDK",
+  "username": "IDK",
+  "password": "IDK",
+  "role": "ROLE_ADMIN"
+}
+
+###update
+PUT http://localhost:8080/api/v1/profile/update?p=402880ec821775c50182177703b40000
+Content-Type: application/json
+
+{
+  "name": "IDK",
+  "surname": "IDK",
+  "middleName": "IDK",
+  "username": "IDK",
+  "password": "IDK",
+  "role": "ROLE_ADMIN"
+}
+
+###pagniation with filter
+GET http://localhost:8080/api/v1/profile/pagination/filter?size=3&page=0
+Content-Type: application/json
+
+{
+
+}
+

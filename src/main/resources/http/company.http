@@ -1,0 +1,29 @@
+POST http://localhost:8080/api/v1/company/create
+Content-Type: application/json
+
+{
+  "name": "IDK",
+  "contact": "IDK",
+  "address": "IDK",
+  "role": "PAYMENT",
+  "username": "IDK",
+  "password": "IDK"
+}
+###update
+PUT http://localhost:8080/api/v1/company/update?c=402880ec8217701f01821771e2c60000
+Content-Type: application/json
+
+{
+  "name": "IDK",
+  "contact": "IDK",
+  "address": "IDK",
+  "role": "PAYMENT",
+  "username": "IDK",
+  "password": "IDK"
+}
+
+###pagination
+GET http://localhost:8080/api/v1/company/pagination?size=2&page=0
+
+###Delete
+DELETE http://localhost:8080/api/v1/company/delete?c=402880ec8217701f01821771e2c60000
